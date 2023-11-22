@@ -10,7 +10,7 @@ const Navbar = () => {
           href="#home"
           className="h-auto w-auto flex flex-row items-center"
         >
-          <h2 className="text-5xl text-slate-100">
+          <h2 className="text-5xl mr-2 text-slate-100">
             M
           </h2>
 
