@@ -37,7 +37,7 @@ const Testimonial = () => {
     <h2 className="text-5xl text-slate-50 text-center py-5">Testimonials</h2>
       {testimonials.length && (
         <>
-          <div className="flex flex-col md:flex-row gap-3 w-3/4 text-slate-50 max-w-4xl  mx-auto justify-center p-4 bg-slate-900 shadow-lg rounded-2xl">
+          <div className="flex flex-col md:flex-row w-full gap-3 md:w-3/4 text-slate-50 max-w-4xl  mx-auto justify-center p-4 bg-slate-900 shadow-lg rounded-2xl">
             <Image 
                 src={matieUrlFor(testimonials[currentIndex]?.imageurl) || ''} 
                 alt={testimonials[currentIndex]?.name}

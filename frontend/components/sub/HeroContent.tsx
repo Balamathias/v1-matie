@@ -24,7 +24,7 @@ const HeroContent = () => {
         >
           <SparklesIcon className="text-slate-100 mr-[10px] h-5 w-5" />
           <h1 className="welcome-text text-[20px]">
-            Hi there! My name is <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">Mathias</span>, I am a fullstack developer.
+            Hi there! My name is <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">Mathias</span>, I am a fullstack Web developer.
           </h1>
         </motion.div>
 
@@ -33,12 +33,12 @@ const HeroContent = () => {
           className="flex flex-col gap-6 mt-6 text-6xl font-bold text-white max-w-[600px] w-auto h-auto"
         >
           <span>
-            Providing
+            I provide
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
               {" "}
               the best{" "}
             </span>
-            project exprience
+            project exprience for my clients.
           </span>
         </motion.div>
 
@@ -46,8 +46,7 @@ const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
-          I&apos;m a Full Stack Software Engineer with experience in Website,
-          Mobile, and Software development. Check out my projects and skills.
+          I understand that good design means good business and I don&apos;t take that for granted when it comes to my clients. I value the satisfaction of my clients for every service rendered, ranging from Web development, development of fullstack applications and technical writing.
         </motion.p>
         {/* <motion.a
           variants={slideInFromLeft(1)}
